@@ -35,7 +35,7 @@ public class Helper {
 	}
 	
 	public static String  getcurrentDateTime(){
-		
+		//To fetch current timestamp 
 		DateFormat customformat=new SimpleDateFormat("MM_dd_yyyy_HH_mm_ss");
 		
 		Date currentDate=new Date();
