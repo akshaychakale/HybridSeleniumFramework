@@ -3,10 +3,10 @@ name: Run Selenium Tests with Java
 on:
   push:
     branches:
-      - main  # Trigger the action on pushes to the 'main' branch
+      - master  # Trigger the action on pushes to the 'main' branch
   pull_request:
     branches:
-      - main  # Trigger the action on PRs targeting the 'main' branch
+      - master  # Trigger the action on PRs targeting the 'main' branch
 
 jobs:
   selenium-tests:
