@@ -29,7 +29,7 @@ jobs:
           java-version: '11'  # Specify the version of Java (e.g., 11 or 17)
           distribution: 'temurin'  # Use Temurin (formerly AdoptOpenJDK)
 
-      # Cache Maven dependencies (optional but recommended to speed up builds)
+      # Cache Maven dependencies (optional but recommended to speed up builds )
       - name: Cache Maven dependencies
         uses: actions/cache@v3
         with:
